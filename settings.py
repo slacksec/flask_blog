@@ -2,7 +2,7 @@ import os
 
 SECRET_KEY = 'you-will-never-guess'
 DEBUG=True
-DB_USERNAME = 'fromzeroedu'
+DB_USERNAME = 'dbadmin'
 DB_PASSWORD = '' # not required for cloud9
 BLOG_DATABASE_NAME = 'blog'
 DB_HOST = os.getenv('IP', '0.0.0.0')
